@@ -64,16 +64,17 @@ class SplitPickUp extends Component {
             <View style={styles.container}>
                 <TabBar
                     position='top'
-										options={[
-													'Produtos Disponíveis',
-													'Produtos Selecionados'
-												]}
-										screens={[
-												<SplitItemList
-													availableItems={order.items}
-													selectedItems={this.props.selectedItems} />,
-												<SplitItemChecked	selectedItems={this.props.selectedItems} />
-											]}
+		    options={[
+			'Produtos Disponíveis',
+			'Produtos Selecionados'
+		    ]}
+		    screens={[
+			<SplitItemList
+			   availableItems={order.items}
+		  	   selectedItems={this.props.selectedItems}
+			 />,
+			<SplitItemChecked	selectedItems={this.props.selectedItems} />
+		    ]}
                     selectedTabColor={colors.primary}
                 />
             </View>
