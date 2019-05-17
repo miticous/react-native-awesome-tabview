@@ -6,6 +6,8 @@
 
 ## Usage
 
+![alt text](https://i.ibb.co/4PLVPrk/Screenshot-1558062445.png)
+
 ```javascript
 import RNReactNativeAwesomeTabview from 'react-native-awesome-tabview';
 
