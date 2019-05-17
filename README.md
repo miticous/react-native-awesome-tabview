@@ -1,13 +1,13 @@
-# react-native-react-native-awesome-tabview
+# react-native-awesome-tabview
 
 ## Getting started
 
-`$ npm install react-native-react-native-awesome-tabview --save`
+`$ npm install react-native-awesome-tabview --save`
 
 ## Usage
 
 ```javascript
-import RNReactNativeAwesomeTabview from 'react-native-react-native-awesome-tabview';
+import RNReactNativeAwesomeTabview from 'react-native-awesome-tabview';
 
 import React, { Component } from 'react'
 import { View } from 'react-native'
