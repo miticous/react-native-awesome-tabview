@@ -9,11 +9,10 @@
 ![alt text](https://i.ibb.co/4PLVPrk/Screenshot-1558062445.png)
 
 ```javascript
-import RNReactNativeAwesomeTabview from 'react-native-awesome-tabview';
+import TabBar from 'react-native-awesome-tabview';
 
 import React, { Component } from 'react'
 import { View } from 'react-native'
-import TabBar from '../../components/theme/tabbar';
 import { colors } from '../../components/theme/styles';
 import { connect } from "react-redux";
 
