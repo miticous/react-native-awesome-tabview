@@ -2,7 +2,7 @@
 
 ## Getting started
 
-`$ npm install react-native-awesome-tabview --save`
+`$ npm install https://github.com/mam17/react-native-awesome-tabview.git`
 
 ## Usage
 
