@@ -47,7 +47,7 @@ export default class TabBar extends Component {
                 </View>
                 <View>
                     {
-                        screens && screens.length && screens.map((scn, index) =>
+                        screens && !!screens.length && screens.map((scn, index) =>
                             index === this.state.selectedTabIndex && <View key={index}>{scn}</View>
                         )
                     }
