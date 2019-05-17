@@ -26,7 +26,7 @@ class SplitPickUp extends Component {
             <View style={styles.container}>
                 <TabBar
                     position='top'
-		    options={[
+		    tabTitles={[
 			'Produtos Disponíveis',
 			'Produtos Selecionados'
 		    ]}
