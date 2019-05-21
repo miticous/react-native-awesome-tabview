@@ -35,7 +35,7 @@ class SplitPickUp extends Component {
 			   availableItems={order.items}
 		  	   selectedItems={this.props.selectedItems}
 			 />,
-			<SplitItemChecked	selectedItems={this.props.selectedItems} />
+			<SplitItemChecked selectedItems={this.props.selectedItems} />
 		    ]}
                     selectedTabColor={colors.primary}
                 />
