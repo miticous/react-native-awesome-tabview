@@ -10,7 +10,8 @@
 
 ```javascript
 import TabBar from 'react-native-awesome-tabview';
-
+import SplitItemList from './split-item-list'
+import SplitItemCheck from './split-item-check
 import React, { Component } from 'react'
 import { View } from 'react-native'
 import { colors } from '../../components/theme/styles';
